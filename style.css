@@ -1,17 +1,17 @@
 body {
   margin: 0;
   color: #162d4f;
-  background: linear-gradient(#e6f4ff, #ffffff);
   font-family: "Libre Caslon Text", Georgia, serif;
+  background-size: cover;
 }
 
 h1 {
-  color: #235fd4;
+  color: #274c77;
   font-size: 2.5rem;
 }
  
 .tagline {
-  color: #df5034;
+  color: #e7ecef;
 }
 
 .hero {
@@ -26,8 +26,8 @@ main {
 }
  
 .fact-card {
-  background: #fdf7e8;
-  border: 2px solid #235fd4;
+  background: #e7ecef;
+  border: 2px solid #8b8c89;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -40,23 +40,23 @@ main {
 }
 
 .tortoise {
-  width: 12rem;
+  width: 20rem;
   height: 12rem;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 25%, #ffffff, #cfe6ff 65%, #9dc4ef);
   display: flex;
   align-items: center;
   justify-content: center;
 }
  
 .scene {
-  width: 78%;
+  width: clamp(200px, 50vw, 400px );
+  border-radius: 12px;
 }
 
  button {
   font: inherit;
   color: #ffffff;
-  background: #df5034;
+  background: #6096ba;
   border: none;
   padding: 0.75rem 1.5rem;
   cursor: pointer;
@@ -64,7 +64,7 @@ main {
 }
  
 button:hover {
-  background: #a43835;
+  background: #a3cef1;
   transform: scale(1.05);
 }
 
@@ -79,3 +79,30 @@ button:hover {
 .globe.shaking {
   animation: shake 600ms ease;
 }
+
+.othertortoise {
+  border: 3px solid #8b8c89;
+  background-color: #a3cef1;
+  color: #162d4f;
+  margin: 20px;
+  margin-top: 0px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 12px;
+  }
+
+  .othertortoise:hover {
+    background-color: #6096ba;
+    }
+
+  #space-tortoise {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    }
+
+#randomtortoise {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    }
