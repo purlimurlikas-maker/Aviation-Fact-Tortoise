@@ -4,7 +4,7 @@ Aviation Fact Tortoise - a website that has a tortoise, who gives you a random a
 
 Try it: https://purlimurlikas-maker.github.io/Aviation-Fact-Tortoise/
 
-To use it, just click on the link and press the button to get a random fact about aviation. You can also visit two other fact tortoise websites through this one. 
+To use it, just click on the link and press the button to get a random fact about aviation. 
 
 The website gives you a random fact about aviation upon pressing the button, and you can visit two other websites through this one.
 
